@@ -1,0 +1,233 @@
+*{
+margin: 0;
+}
+
+body{
+margin:0;
+font-family: 'Amatic SC', cursive;
+text-align: center;
+font-size: 2.5em;
+}
+
+h1{
+font-size: 3em;
+}
+
+.navbar-header{
+  background-image: url(../img/logo.png);
+  background-position: center center;
+  background-size: cover;
+  width: 10%;
+}
+
+.navbar{
+margin-bottom: 0;
+}
+
+#menu{
+display: block;
+background-color:#2e2e2a;
+font-size: 17px;
+position: fixed;
+z-index: 2;
+width: 100%;
+}
+
+.menu h1{
+color:#FFFF;
+}
+
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+overflow: auto;
+display:inline-flex;
+float:right;
+}
+
+li {
+width: 100px;
+text-align: center;
+}
+
+a{
+text-decoration: none;
+display: block;
+color:#808B96;
+}
+
+a:hover{
+ color: #FFFF;
+}
+
+.desplegable{
+display: none;
+margin-left:50px;
+}
+
+.page{
+margin-top: 150px;
+margin-left: 50px;
+position: absolute;
+color:white;
+font-size: 3em;
+}
+
+.header{
+background-image: url(../img/ravi-roshan-383168-unsplash.jpg);
+background-position: center center;
+background-size: cover;
+width: 100%;
+padding-top:50em;
+}
+
+.titulo-principal{
+ font-size: 2em;
+}
+
+.resena{
+  font-size: 1em;
+}
+
+.abaut{
+background-color: #DC143C;
+color: #fff;
+padding-top: 100px;
+padding-bottom: 100px;
+font-size: 1.3em;
+margin:0;
+}
+
+.titulo-abaut{
+  background-image:url(../img/IMG-20151206-WA0016.jpg);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 100%;
+  height: 360px;
+
+}
+.titulo-abautmy h1{
+  font-size:3em;
+}
+
+.proyect{
+padding-left: 100px;
+text-align: justify;
+padding-top: 50px;
+}
+
+.titulo-proyect{
+text-align: center;
+}
+
+#call-to-action{
+background-color: #696969;
+color:#fff;
+padding:10px;
+border-radius: 5px;
+float: left;
+display: inline;
+margin-top:10px;
+}
+
+.proyect1{
+background-color:#DC143C;
+color: #fff;
+padding-bottom: 60px;
+}
+
+.foto-proyect1{
+background-image:url(../img/ux.jpg);
+background-position: center center;
+background-size: cover;
+height: 200px;
+}
+
+.titulo-proyect1 h1{
+padding-top: 15px;
+font-size: 1.3em;
+text-align: center;
+}
+
+
+.proyect2{
+background-color:#DC143C;
+color: #fff;
+padding-bottom: 60px;
+}
+
+.foto-proyect2{
+background-image:url(../img/ux.jpg);
+background-position: center center;
+background-size: cover;
+height: 200px;
+}
+
+.titulo-proyect2 h1{
+padding-top: 15px;
+font-size: 1.3em;
+text-align: center;
+}
+
+.proyect3{
+background-color:#DC143C;
+color: #fff;
+padding-bottom: 60px;
+}
+
+.foto-proyect3{
+background-image:url(../img/ux.jpg);
+background-position: center center;
+background-size: cover;
+height: 200px;
+}
+
+.titulo-proyect3 h1{
+padding-top: 15px;
+font-size: 1.3em;
+text-align: center;
+}
+
+#Find-out-more{
+background-color:	#696969;
+color:#fff;
+padding:10px;
+border-radius: 5px;
+float: left;
+display: inline;
+margin-top:10px;
+margin-left: 10px;
+}
+
+.titulo-contact{
+padding-top:30px;
+}
+
+.icons {
+  padding-top: 50px;
+  padding-bottom:100px;
+ }
+
+.fa-address-book{
+font-size: 2em;
+}
+
+.fa-linkedin{
+font-size: 2em;
+}
+
+.fa-envelope-open{
+font-size: 2em;
+}
+
+.fa-mobile-alt{
+font-size: 2em;
+}
+
+.footer{
+background-color:#DC143C;
+padding: 5px;
+color:#FFFF;
+font-size:1em;
+}
