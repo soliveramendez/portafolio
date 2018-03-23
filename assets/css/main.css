@@ -4,13 +4,15 @@ margin: 0;
 
 body{
 margin:0;
-font-family: 'Amatic SC', cursive;
+font-family: 'Cabin Sketch', cursive;
 text-align: center;
-font-size: 2.5em;
+font-size: 2em;
 }
 
 h1{
-font-size: 3em;
+font-size: 2em;
+font-family: 'Cabin Sketch', cursive;
+padding-bottom:20px;
 }
 
 .navbar-header{
@@ -27,15 +29,11 @@ margin-bottom: 0;
 #menu{
 display: block;
 background-color:#2e2e2a;
-font-size: 17px;
 position: fixed;
 z-index: 2;
 width: 100%;
 }
 
-.menu h1{
-color:#FFFF;
-}
 
 ul{
 list-style: none;
@@ -47,7 +45,7 @@ float:right;
 }
 
 li {
-width: 100px;
+width:100px;
 text-align: center;
 }
 
@@ -57,8 +55,8 @@ display: block;
 color:#808B96;
 }
 
-a:hover{
- color: #FFFF;
+.navbar:hover{
+ color:#DC143C;
 }
 
 .desplegable{
@@ -71,7 +69,7 @@ margin-top: 150px;
 margin-left: 50px;
 position: absolute;
 color:white;
-font-size: 3em;
+font-size: 2.2em;
 }
 
 .header{
@@ -95,7 +93,6 @@ background-color: #DC143C;
 color: #fff;
 padding-top: 100px;
 padding-bottom: 100px;
-font-size: 1.3em;
 margin:0;
 }
 
@@ -103,32 +100,19 @@ margin:0;
   background-image:url(../img/IMG-20151206-WA0016.jpg);
   background-position: center center;
   background-size: cover;
-  border-radius: 100%;
-  height: 360px;
-
-}
-.titulo-abautmy h1{
-  font-size:3em;
-}
+  border-radius: 30px 80px;
+  height: 50vh;
+  width: 50vh;
+  }
 
 .proyect{
-padding-left: 100px;
 text-align: justify;
-padding-top: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .titulo-proyect{
 text-align: center;
-}
-
-#call-to-action{
-background-color: #696969;
-color:#fff;
-padding:10px;
-border-radius: 5px;
-float: left;
-display: inline;
-margin-top:10px;
 }
 
 .proyect1{
@@ -189,40 +173,24 @@ font-size: 1.3em;
 text-align: center;
 }
 
-#Find-out-more{
-background-color:	#696969;
-color:#fff;
-padding:10px;
-border-radius: 5px;
-float: left;
-display: inline;
-margin-top:10px;
-margin-left: 10px;
+.titulo-skill{
+padding-top: 80px;
+padding-bottom: 20px;
 }
 
 .titulo-contact{
-padding-top:30px;
+padding-top: 80px;
+padding-bottom: 20px;
 }
 
 .icons {
   padding-top: 50px;
-  padding-bottom:100px;
+  padding-bottom:50px;
+  font-size: 2.2em;
  }
 
-.fa-address-book{
-font-size: 2em;
-}
-
-.fa-linkedin{
-font-size: 2em;
-}
-
-.fa-envelope-open{
-font-size: 2em;
-}
-
-.fa-mobile-alt{
-font-size: 2em;
+.icons p{
+ font-size: .5em;
 }
 
 .footer{
