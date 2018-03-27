@@ -4,14 +4,14 @@ margin: 0;
 
 body{
 margin:0;
-font-family: 'Cabin Sketch', cursive;
+font-family: 'Titillium Web', sans-serif;
 text-align: center;
 font-size: 2em;
 }
 
 h1{
-font-size: 2em;
-font-family: 'Cabin Sketch', cursive;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-weight: bold;
 padding-bottom:20px;
 }
 
@@ -24,6 +24,11 @@ padding-bottom:20px;
 
 .navbar{
 margin-bottom: 0;
+}
+
+.navbar-right{
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
 #menu{
@@ -49,6 +54,7 @@ width:100px;
 text-align: center;
 }
 
+
 a{
 text-decoration: none;
 display: block;
@@ -69,23 +75,17 @@ margin-top: 150px;
 margin-left: 50px;
 position: absolute;
 color:white;
-font-size: 2.2em;
 }
 
 .header{
 background-image: url(../img/ravi-roshan-383168-unsplash.jpg);
 background-position: center center;
 background-size: cover;
-width: 100%;
-padding-top:50em;
+padding-top:35em;
 }
 
 .titulo-principal{
  font-size: 2em;
-}
-
-.resena{
-  font-size: 1em;
 }
 
 .abaut{
@@ -115,17 +115,30 @@ padding-bottom: 30px;
 text-align: center;
 }
 
+
 .proyect1{
 background-color:#DC143C;
 color: #fff;
 padding-bottom: 60px;
 }
 
+.bustrack{
+background-color:transparent;
+z-index: 100;
+top:0;
+}
+
+.bustrack:hover{
+background-color: #000;
+position: absolute;
+}
+
 .foto-proyect1{
 background-image:url(../img/bustrack.png);
 background-position: center center;
 background-size: cover;
-height: 200px;
+height: 350px;
+z-index: 1;
 }
 
 .titulo-proyect1 h1{
@@ -133,7 +146,6 @@ padding-top: 15px;
 font-size: 1.3em;
 text-align: center;
 }
-
 
 .proyect2{
 background-color:#DC143C;
@@ -145,7 +157,7 @@ padding-bottom: 60px;
 background-image:url(../img/m-bank.png);
 background-position: center center;
 background-size: cover;
-height: 200px;
+height: 350px;
 }
 
 .titulo-proyect2 h1{
@@ -164,7 +176,7 @@ padding-bottom: 60px;
 background-image:url(../img/womanlive.png);
 background-position: center center;
 background-size: cover;
-height: 200px;
+height: 350px;
 }
 
 .titulo-proyect3 h1{
@@ -186,11 +198,11 @@ padding-bottom: 20px;
 .icons {
   padding-top: 50px;
   padding-bottom:50px;
-  font-size: 2.2em;
+  font-size: 3em;
  }
 
 .icons p{
- font-size: .5em;
+ font-size: 0.3em;
 }
 
 .footer{
