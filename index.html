@@ -5,47 +5,45 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Mi Página</title>
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Titillium+Web" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
 
   <body>
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"></a>
-    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#sobremi">Sobre Mi</a></li>
-          <li><a href="#proyect">Proyectos</a></li>
-            <li><a href="#contact">Contacto</a></li>
-
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#sobremi">Sobre Mi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#proyect">Proyectos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skill">Habilidades</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contacto</a>
+      </li>
+    </ul>
+  </div>
 </nav>
+</header>
 
-
-    <section id="header"><a name="tema4"></a>
       <div class="container-fluid">
        <div class="row">
        <div class="col-12 page">
         <h1 class="titulo-principal">Enfoque en los usuarios</h1>
          <h2 class="resena">UX Designer</h2>
        </div>
-        <div class="col-12 header">
-
+        <div class="col-12 fondo">
        </div>
        </div>
       </div>
@@ -53,99 +51,104 @@
 
     <section id="sobremi">
       <div class="container-fluid abaut">
-        <div class="row"><a name="tema3"></a>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-md-push-1">
+        <div class="row justify-content-center">
+          <div class="col-8 col-md-6 col-lg-5">
           <h1 class="titulo-abaut"></h1>
         </div>
 
-         <div class="col-xs-12 col-sm-6 col-md-pull-1">
+         <div class="col-12 col-md-6 col-lg-5">
          <h1 class="titulo-abautmy">Sobre Mi</h1>
-         <p>Hola, mi nombre es Silvia Olivera, soy UX Designe. Soy una persona motivada, con iniciativa e independiente.Luego de 7 años de trabajar en el área de la prevención de riesgos, he encontrado mi verdadera vocación como programadora UX Designer. Me encanta entender a los usuarios, investigar y hacer productos que satisfagan sus necesidades. Creo en el trabajo colaborativo y en aquellos que potencian nuestras habilidades, pero sobre todo en mi talento. </p>
+         <p>Hola, mi nombre es Silvia Olivera, soy UX Designe. Soy una persona motivada, con iniciativa e independiente. Luego de 7 años de trabajar en el área de la prevención de riesgos, he encontrado mi verdadera vocación como UX Designer. Me encanta entender a los usuarios, investigar y hacer productos que satisfagan sus necesidades. Creo en el trabajo colaborativo y en aquellos que potencian nuestras habilidades, pero sobre todo en mi talento. </p>
         </div>
-
        </div>
       </div>
   </section>
 
-     <section  id="proyect">
-      <div class="container proyect">
-        <div class="row"><a name="tema3"></a>
-         <div class="col-12 proyect">
-         <h1 class="titulo-proyect">Proyectos</h1>
-        </div>
-      </div>
-    </div>
-</section>
+  <section  id="proyect">
+   <div class="container proyect">
+     <div class="row">
+      <div class="col-12 proyect">
+      <h1 class="titulo-proyect">Proyectos</h1>
+      <a href="https://github.com/soliveramendez?tab=repositories">Ver Mi repositorio</a>
+     </div>
+   </div>
+  </div>
+  </section>
 
   <section>
     <div class="container">
       <div class="row">
-       <div class="col-xs-12 col-sm-4 bustrack">
-       <div class="proyect1">
+       <div class="col-12 col-md-4 bustrack">
+       <div class="card bg-dark text-white">
+        <img class="card-img" src="assets/img/bustrack.png" alt="Card image">
+      <h5 class="card-title">Bustrack</h5>
+     <p class="card-text">Para que no pierdas más el bus, te avisamos cuando este cerca, ideal para las personas que viajan a diario.</p>
+    <a class="vermas" href="https://drive.google.com/open?id=12k2YkoA9HOaw4FXEAaeoVFjf9WUbrD0g_YmhadoNgaI">Ver mas</a>
+  </div>
+</div>
 
-       <div class="foto-proyect1">
+
+    <div class="col-12 col-md-4 t-banck">
+      <div class="card bg-dark text-white">
+      <img class="card-img" src="assets/img/m-bank.png" alt="Card image">
+      <h5 class="card-title">T-Banck</h5>
+      <p class="card-text">Quieres por fin organizar tus presupuesto y programar tus sueños, este banco es ideal para ti.</p>
+     <a class="vermas" href="https://drive.google.com/open?id=104mWBVkQ5IT11rLYxEF1Z3nhMgTScrnv7tqQVgITqbE">Ver mas</a>
       </div>
-       <div class="titulo-proyect1">
-         <h1>BUSTRACK</h1>
-       <p>Para que no pierdas más el bus, te avisamos cuando este cerca, ideal para las personas que viajan a diario.</p>
-        <a href="https://drive.google.com/open?id=12k2YkoA9HOaw4FXEAaeoVFjf9WUbrD0g_YmhadoNgaI">Ver mas</a>
-       </div>
-    </div>
-  </div>
+     </div>
 
-     <div class="col-xs-12 col-sm-4">
-     <div class="proyect2">
-     <div class="foto-proyect2">
-    </div>
-     <div class="titulo-proyect2">
-     <h1>T-BANCK</h1>
-     <p>Quieres por fin organizar tus presupuesto y programar tus sueños, este banco es ideal para ti.</p>
-      <a href="https://drive.google.com/open?id=104mWBVkQ5IT11rLYxEF1Z3nhMgTScrnv7tqQVgITqbE">Ver Mas</a>
-    </div>
-   </div>
-  </div>
 
-     <div class="col-xs-12 col-sm-4">
-     <div class="proyect3">
-     <div class="foto-proyect3">
-    </div>
-     <div class="titulo-proyect3">
-      <h1>WOMANLIVE</h1>
-     <p>Cansada de que se te olvide pedir hora para tus exámenes de salud, ésta es la solución.</p>
-     <a href="https://drive.google.com/open?id=1svW4204SjydkjV6nKcTxAbyXVRN7U-DRKCZrLWLJug8">Ver Mas</a>
-    </div>
-   </div>
+    <div class="col-12 col-md-4 womanlive">
+      <div class="card bg-dark text-white">
+        <img class="card-img" src="assets/img/womanlive.png" alt="Card image">
+      <h5 class="card-title">WomanLive</h5>
+      <p class="card-text">Cansada de que se te olvide pedir hora para tus exámenes de salud, ésta es la solución.</p>
+     <a class="vermas" href="https://drive.google.com/open?id=1svW4204SjydkjV6nKcTxAbyXVRN7U-DRKCZrLWLJug8">Ver mas</a>
+      </div>
+     </div>
   </div>
- </div>
- </div>
- </section>
+  </div>
+</section>
 
- <div class="container skill">
-  <div class="row"><a name="tema3"></a>
+ <div  id="skill" class="container skill">
+  <div class="row">
    <div class="col-12">
    <h1 class="titulo-skill">Habilidades</h1>
    <p>Aplicación de Metodologia centrada en el usuario, situando al usuario en el centro del diseño de una aplicación o dispositivo, utilizando User Research, Marvel, Técnicas de Ideación, entre otras.</p>
-   <a href="https://drive.google.com/open?id=1svW4204SjydkjV6nKcTxAbyXVRN7U-DRKCZrLWLJug8">Ver Mas</a>
+
  </div>
 </div>
 </div>
-
 
  <div class="container">
   <div class="row icons">
-      <div class="col-xs-4 col-md-4">
+      <div class="col-4 col-md-4">
        <i class="fab fa-html5"></i>
      </div>
 
-      <div class="col-xs-4 col-md-4">
+      <div class="col-4 col-md-4">
        <i class="fab fa-css3-alt"></i>
      </div>
 
-      <div class="col-xs-4 col-md-4">
-       <i class="fab fa-github-square"></i>
+      <div class="col-4 col-md-4">
+        <i class="fab fa-github-square"></i>
      </div>
   </div>
+
+     <div class="row icons">
+     <div class="col-4 col-md-4">
+      <img class="marvel"src="assets/img/marvel.png" alt="">
+    </div>
+
+    <div class="col-4 col-md-4">
+     <img class="marvel"src="assets/img/figma.png" alt="">
+   </div>
+
+   <div class="col-4 col-md-4">
+  <i class="fab fa-google-drive"></i>
+  </div>
  </div>
+</div>
 
     <div  id="contact" class="container contact">
      <div class="row"><a name="tema3"></a>
@@ -158,36 +161,37 @@
 
     <div class="container">
      <div class="row icons">
-         <div class="col-xs-4 col-md-4">
+         <div class="col-12 col-md-4 segundos">
            <a href="https://www.linkedin.com/in/silvia-olivera/"><i class="fab fa-linkedin"></i></a>
            <p>https://www.linkedin.com/in/silvia-olivera/</p>
         </div>
 
-         <div class="col-xs-4 col-md-4">
-          <a href="#"><i class="fas fa-envelope-open"></i></a>
+         <div class="col-12 col-md-4 segundos">
+          <i class="fas fa-envelope-open"></i>
           <p>soliveramendez@gmail.com</p>
         </div>
 
-         <div class="col-xs-4 col-md-4">
-           <a href="#"><i class="fas fa-mobile-alt"></i></a>
+         <div class="col-12 col-md-4 segundos">
+           <i class="fas fa-mobile-alt"></i>
           <p>+569 75494704</p>
         </div>
      </div>
     </div>
 
-
    <footer>
     <div class="container-fluid">
       <div class="row">
       <div class="col-12 footer">
-      <h3 class="footer">Desarrollado por mí, Laboratoria 2018</h3>
+      <h3 class="footer">Desarrollado por mí<a href="http://talento.laboratoria.la/">, Laboratoria 2018</a></h3>
       </div>
       </div>
      </div>
  </footer>
 
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   </body>
 
 </html>

@@ -6,94 +6,60 @@ body{
 margin:0;
 font-family: 'Titillium Web', sans-serif;
 text-align: center;
-font-size: 2em;
+font-size: 1.1em;
+background-color: #f8f9fa;
 }
 
 h1{
 font-family: 'Alegreya Sans SC', sans-serif;
 font-weight: bold;
-padding-bottom:20px;
 }
 
-.navbar-header{
-  background-image: url(../img/logo.png);
-  background-position: center center;
-  background-size: cover;
-  width: 10%;
-}
-
-.navbar{
-margin-bottom: 0;
-}
-
-.navbar-right{
-  font-size: 0.8em;
+h2{
   font-weight: bold;
 }
 
-#menu{
-display: block;
-background-color:#2e2e2a;
-position: fixed;
-z-index: 2;
-width: 100%;
+header{
+ position: fixed;
+ width: 100%;
+ z-index: 100;
+  }
+
+
+.navbar-brand img{
+width: 80%;
 }
 
-
-ul{
-list-style: none;
-padding: 0;
-margin: 0;
-overflow: auto;
-display:inline-flex;
-float:right;
-}
-
-li {
-width:100px;
-text-align: center;
-}
-
-
-a{
-text-decoration: none;
-display: block;
-color:#808B96;
-}
-
-.navbar:hover{
- color:#DC143C;
-}
-
-.desplegable{
-display: none;
-margin-left:50px;
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#DC143C;
 }
 
 .page{
-margin-top: 150px;
-margin-left: 50px;
-position: absolute;
-color:white;
+  margin-top: 100px;
+  padding-left: 50px;
+  position: absolute;
+  color:#fff;
+  z-index: 1;
+  text-shadow:
+   -1px -1px 0 #fff,
+    1px -1px 0 #000,
+   -1px 1px 0 #fff,
+    1px 1px 0 #000;
 }
 
-.header{
-background-image: url(../img/ravi-roshan-383168-unsplash.jpg);
-background-position: center center;
-background-size: cover;
-padding-top:35em;
-}
-
-.titulo-principal{
- font-size: 2em;
+.fondo{
+  background-image: url(../img/ravi-roshan-383168-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding-top:35em;
 }
 
 .abaut{
-background-color: #DC143C;
-color: #fff;
-padding-top: 100px;
-padding-bottom: 100px;
-margin:0;
+  background-color: #DC143C;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin:0;
 }
 
 .titulo-abaut{
@@ -106,108 +72,81 @@ margin:0;
   }
 
 .proyect{
-text-align: justify;
-padding-top: 30px;
-padding-bottom: 30px;
+  text-align: justify;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .titulo-proyect{
-text-align: center;
+  text-align: center;
 }
-
+.titulo-proyect a{
+  text-align: center;
+}
 
 .proyect1{
-background-color:#DC143C;
-color: #fff;
-padding-bottom: 60px;
+  background-color:#DC143C;
+  color: #fff;
 }
 
-.bustrack{
-background-color:transparent;
-z-index: 100;
-top:0;
+.text-white{
+  width: 40vh;
 }
 
-.bustrack:hover{
-background-color: #000;
-position: absolute;
+.card-img{
+  width: 40vh;
+}
+.card-text{
+  color:#000;
+  background-color:#f8f9fa;
 }
 
-.foto-proyect1{
-background-image:url(../img/bustrack.png);
-background-position: center center;
-background-size: cover;
-height: 350px;
-z-index: 1;
+.bg-dark{
+  background-color:#f8f9fa;!important;
 }
 
-.titulo-proyect1 h1{
-padding-top: 15px;
-font-size: 1.3em;
-text-align: center;
+a{
+  color:rgba(0,0,0,.5);
 }
 
-.proyect2{
-background-color:#DC143C;
-color: #fff;
-padding-bottom: 60px;
+a:hover{
+  color: #DC143C;
 }
-
-.foto-proyect2{
-background-image:url(../img/m-bank.png);
-background-position: center center;
-background-size: cover;
-height: 350px;
-}
-
-.titulo-proyect2 h1{
-padding-top: 15px;
-font-size: 1.3em;
-text-align: center;
-}
-
-.proyect3{
-background-color:#DC143C;
-color: #fff;
-padding-bottom: 60px;
-}
-
-.foto-proyect3{
-background-image:url(../img/womanlive.png);
-background-position: center center;
-background-size: cover;
-height: 350px;
-}
-
-.titulo-proyect3 h1{
-padding-top: 15px;
-font-size: 1.3em;
-text-align: center;
+.vermas{
+  color:#fff;
 }
 
 .titulo-skill{
-padding-top: 80px;
-padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 .titulo-contact{
-padding-top: 80px;
-padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 .icons {
   padding-top: 50px;
-  padding-bottom:50px;
-  font-size: 3em;
+  padding-bottom:40px;
+  font-size: 3.5em;
  }
 
 .icons p{
  font-size: 0.3em;
 }
 
+
+.marvel{
+ height: 70px;
+}
+
 .footer{
-background-color:#DC143C;
-padding: 5px;
-color:#FFFF;
-font-size:1em;
+  background-color:#DC143C;
+  padding: 5px;
+  color:#FFFF;
+  font-size:1em;
+}
+.footer a{
+  color:#FFFF;;
 }
