@@ -10,11 +10,6 @@ font-size: 1.1em;
 background-color: #f8f9fa;
 }
 
-h1{
-font-family: 'Alegreya Sans SC', sans-serif;
-font-weight: bold;
-}
-
 h2{
   font-weight: bold;
 }
@@ -27,7 +22,7 @@ header{
 
 
 .navbar-brand img{
-width: 80%;
+width: 60%;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
@@ -80,29 +75,42 @@ width: 80%;
 .titulo-proyect{
   text-align: center;
 }
-.titulo-proyect a{
-  text-align: center;
+.titulo-proyect::before{
+  content: "";
+  background-color:#DC143C;
+  padding: 0 5px;
+}
+
+.titulo-proyect::after{
+  content: "";
+  background-color:#DC143C;
+  padding: 0 5px;
 }
 
 .proyect1{
   background-color:#DC143C;
   color: #fff;
 }
-
-.text-white{
-  width: 40vh;
+.card{
+  width: 30%;
+  padding:30px;
+  margin-left:20px;
+  justify-content: center;
 }
-
-.card-img{
-  width: 40vh;
+.card-title{
+  margin-top: 15px;
 }
 .card-text{
   color:#000;
   background-color:#f8f9fa;
 }
-
+.card-img{
+width: 100%;
+text-align: center;
+}
 .bg-dark{
-  background-color:#f8f9fa;!important;
+background-color:#f8f9fa;!important;
+width: 30%;
 }
 
 a{
@@ -121,14 +129,38 @@ a:hover{
   padding-bottom: 20px;
 }
 
+.titulo-skill::before{
+  content: "";
+  background-color:#DC143C;
+  padding: 0 5px;
+}
+
+.titulo-skill::after{
+  content: "";
+  background-color:#DC143C;
+  padding: 0 5px;
+}
+
 .titulo-contact{
   padding-top: 80px;
   padding-bottom: 20px;
 }
 
+.titulo-contact::before{
+  content: "";
+  background-color:#DC143C;
+  padding: 0 5px;
+}
+
+.titulo-contact::after{
+  content: "";
+  background-color:#DC143C;
+  padding: 0 5px;
+}
+
 .icons {
   padding-top: 50px;
-  padding-bottom:40px;
+  margin-bottom:40px;
   font-size: 3.5em;
  }
 
