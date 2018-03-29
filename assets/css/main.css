@@ -5,48 +5,49 @@ margin: 0;
 body{
 margin:0;
 font-family: 'Titillium Web', sans-serif;
-text-align: center;
 font-size: 1.1em;
-background-color: #f8f9fa;
+background-color: #fff;
+}
+
+h1{
+ font-weight: bold;
+ text-align: center;
 }
 
 h2{
-  font-weight: bold;
+ text-align: center;
+}
+
+p{
+ text-align: justify;
 }
 
 header{
  position: fixed;
  width: 100%;
- z-index: 100;
+ z-index: 10;
   }
 
 
 .navbar-brand img{
-width: 60%;
+ width: 60%;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
   color:#DC143C;
 }
 
-.page{
-  margin-top: 100px;
-  padding-left: 50px;
-  position: absolute;
-  color:#fff;
-  z-index: 1;
+.fondo{
+  background-image: url(../img/ravi-roshan-383168-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 20% 0;
   text-shadow:
    -1px -1px 0 #fff,
     1px -1px 0 #000,
    -1px 1px 0 #fff,
     1px 1px 0 #000;
-}
 
-.fondo{
-  background-image: url(../img/ravi-roshan-383168-unsplash.jpg);
-  background-position: center center;
-  background-size: cover;
-  padding-top:35em;
 }
 
 .abaut{
@@ -58,7 +59,7 @@ width: 60%;
 }
 
 .titulo-abaut{
-  background-image:url(../img/IMG-20151206-WA0016.jpg);
+  background-image:url(../img/silviaolivera.jpg);
   background-position: center center;
   background-size: cover;
   border-radius: 30px 80px;
@@ -66,15 +67,16 @@ width: 60%;
   width: 50vh;
   }
 
-.proyect{
-  text-align: justify;
-  padding-top: 30px;
-  padding-bottom: 30px;
+#proyect{
+ padding-top: 80px;
+ padding-bottom: 20px;
 }
 
 .titulo-proyect{
   text-align: center;
+  padding-bottom: 50px;
 }
+
 .titulo-proyect::before{
   content: "";
   background-color:#DC143C;
@@ -91,37 +93,60 @@ width: 60%;
   background-color:#DC143C;
   color: #fff;
 }
+
 .card{
-  width: 30%;
-  padding:30px;
-  margin-left:20px;
-  justify-content: center;
+text-align: center;
+background-color: #1d1619b5;
 }
+
 .card-title{
-  margin-top: 15px;
+color:#fff;
 }
+
 .card-text{
   color:#000;
   background-color:#f8f9fa;
 }
-.card-img{
-width: 100%;
-text-align: center;
+
+.card-bustrack{
+  background-image:url(../img/bustrack.png);
+  background-position: center center;
+  background-size: cover;
+  height: 30vh;
+  }
+
+.card-punto{
+  background-image:url(../img/puntoventa.png);
+  background-position: center center;
+  background-size: cover;
+  height: 30vh;
+  }
+
+.card-womanlive{
+  background-image:url(../img/womanlive.png);
+  background-position: center center;
+  background-size: cover;
+  height: 30vh;
+  }
+
+.bg{
+ border: none;
+ margin-bottom: 30px;
 }
-.bg-dark{
-background-color:#f8f9fa;!important;
-width: 30%;
+
+.row{
+  margin-right:0px;
 }
 
 a{
-  color:rgba(0,0,0,.5);
+ color:rgba(0,0,0,.5);
 }
 
 a:hover{
-  color: #DC143C;
+ color: #DC143C;
 }
 .vermas{
-  color:#fff;
+ color:#fff;
 }
 
 .titulo-skill{
@@ -146,6 +171,10 @@ a:hover{
   padding-bottom: 20px;
 }
 
+.contact p{
+  text-align: center;
+}
+
 .titulo-contact::before{
   content: "";
   background-color:#DC143C;
@@ -162,12 +191,12 @@ a:hover{
   padding-top: 50px;
   margin-bottom:40px;
   font-size: 3.5em;
+  text-align: center;
  }
-
 .icons p{
- font-size: 0.3em;
+  font-size: 0.3em;
+  text-align: center;
 }
-
 
 .marvel{
  height: 70px;
@@ -175,6 +204,7 @@ a:hover{
 
 .footer{
   background-color:#DC143C;
+  text-align: center;
   padding: 5px;
   color:#FFFF;
   font-size:1em;
