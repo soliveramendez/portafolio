@@ -1,214 +1,193 @@
-*{
-margin: 0;
+* {
+  margin: 0;
 }
 
-body{
-margin:0;
-font-family: 'Titillium Web', sans-serif;
-font-size: 1.1em;
-background-color: #fff;
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  background-color: #fff;
+  position: relative;
 }
 
-h1{
- font-weight: bold;
- text-align: center;
+h1, h2{
+  text-align: center;
 }
 
-h2{
- text-align: center;
+p {
+  text-align: justify;
 }
 
-p{
- text-align: justify;
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
-header{
- position: fixed;
- width: 100%;
- z-index: 10;
-  }
-
-
-.navbar-brand img{
- width: 60%;
+.navbar-brand img {
+  width: 60%;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
-  color:#DC143C;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #DC143C;
 }
 
-.fondo{
+.fondo {
   background-image: url(../img/ravi-roshan-383168-unsplash.jpg);
   background-position: center center;
   background-size: cover;
-  padding: 20% 0;
-  text-shadow:
-   -1px -1px 0 #fff,
-    1px -1px 0 #000,
-   -1px 1px 0 #fff,
-    1px 1px 0 #000;
-
+  height: 100vh;
 }
 
-.abaut{
-  background-color: #DC143C;
-  color: #fff;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin:0;
+#aboutme {
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
-.titulo-abaut{
-  background-image:url(../img/silviaolivera.jpg);
+#aboutme h2 {
+  padding-bottom: 20px;
+  text-decoration: underline #DC143C;
+}
+
+.photo-aboutme {
+  background-image: url(../img/silviaolivera.jpg);
   background-position: center center;
   background-size: cover;
   border-radius: 30px 80px;
   height: 50vh;
   width: 50vh;
-  }
-
-#proyect{
- padding-top: 80px;
- padding-bottom: 20px;
 }
 
-.titulo-proyect{
+#proyect {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-color: #212529;
+}
+
+#proyect h1 {
+  padding-bottom: 20px;
+  color: #f8f9fa;
+}
+
+.titulo-proyect::before {
+  content: "";
+  background-color: #DC143C;
+  padding: 0 2px;
+}
+
+.titulo-proyect::after {
+  content: "";
+  background-color: #DC143C;
+  padding: 0 2px;
+}
+
+.card-img:hover {
+  width: 103%;
+}
+
+.col-md {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.card-bustrack {
+  background-image: url(../img/bustrack.png);
+}
+
+.card-punto {
+  background-image: url(../img/puntoventa.png);
+}
+
+.card-womanlive {
+  background-image: url(../img/womanlive.png);
+}
+
+.row {
+  margin-right: 0px;
+}
+
+a:hover {
+  color: #DC143C;
+  font-size: 1.3em;
+}
+
+.seemore {
+  color: #dc3545;
+}
+
+#skill {
   text-align: center;
-  padding-bottom: 50px;
 }
 
-.titulo-proyect::before{
-  content: "";
-  background-color:#DC143C;
-  padding: 0 5px;
-}
-
-.titulo-proyect::after{
-  content: "";
-  background-color:#DC143C;
-  padding: 0 5px;
-}
-
-.proyect1{
-  background-color:#DC143C;
-  color: #fff;
-}
-
-.card{
-text-align: center;
-background-color: #1d1619b5;
-}
-
-.card-title{
-color:#fff;
-}
-
-.card-text{
-  color:#000;
-  background-color:#f8f9fa;
-}
-
-.card-bustrack{
-  background-image:url(../img/bustrack.png);
-  background-position: center center;
-  background-size: cover;
-  height: 30vh;
-  }
-
-.card-punto{
-  background-image:url(../img/puntoventa.png);
-  background-position: center center;
-  background-size: cover;
-  height: 30vh;
-  }
-
-.card-womanlive{
-  background-image:url(../img/womanlive.png);
-  background-position: center center;
-  background-size: cover;
-  height: 30vh;
-  }
-
-.bg{
- border: none;
- margin-bottom: 30px;
-}
-
-.row{
-  margin-right:0px;
-}
-
-a{
- color:rgba(0,0,0,.5);
-}
-
-a:hover{
- color: #DC143C;
-}
-.vermas{
- color:#fff;
-}
-
-.titulo-skill{
+.titulo-skill {
   padding-top: 80px;
   padding-bottom: 20px;
 }
 
-.titulo-skill::before{
+.titulo-skill::before {
   content: "";
-  background-color:#DC143C;
-  padding: 0 5px;
+  background-color: #DC143C;
+  padding: 0 2px;
 }
 
-.titulo-skill::after{
+.titulo-skill::after {
   content: "";
-  background-color:#DC143C;
-  padding: 0 5px;
+  background-color: #DC143C;
+  padding: 0 2px;
 }
 
-.titulo-contact{
+#contact {
+  text-align: center;
+}
+
+.titulo-contact {
   padding-top: 80px;
   padding-bottom: 20px;
 }
 
-.contact p{
-  text-align: center;
+.titulo-contact::before {
+  content: "";
+  background-color: #DC143C;
+  padding: 0 2px;
 }
 
-.titulo-contact::before{
+.titulo-contact::after {
   content: "";
-  background-color:#DC143C;
-  padding: 0 5px;
-}
-
-.titulo-contact::after{
-  content: "";
-  background-color:#DC143C;
-  padding: 0 5px;
+  background-color: #DC143C;
+  padding: 0 2px;
 }
 
 .icons {
   padding-top: 50px;
-  margin-bottom:40px;
-  font-size: 3.5em;
+  margin-bottom: 40px;
+  font-size: 3em;
   text-align: center;
- }
-.icons p{
+}
+
+.icons p {
   font-size: 0.3em;
   text-align: center;
 }
 
-.marvel{
- height: 70px;
+.marvel {
+  height: 70px;
 }
 
-.footer{
-  background-color:#DC143C;
+.gif {
+  background-image: url(../img/giphy.gif);
+  background-position: center center;
+  background-size: cover;
+  height: 20vh;
+}
+
+.footer {
+  background-color: #DC143C;
   text-align: center;
   padding: 5px;
-  color:#FFFF;
-  font-size:1em;
+  color: #FFFF;
+  font-size: 1em;
 }
-.footer a{
-  color:#FFFF;;
+
+.footer a {
+  color: #FFFF;
 }
